@@ -3,7 +3,7 @@
  * @Author: Pony
  * @Date: 2021-09-20 22:08:03
  * @LastEditors: Pony
- * @LastEditTime: 2021-09-21 00:56:00
+ * @LastEditTime: 2021-09-21 01:06:01
  * @FilePath: /demo01/docs/.vitepress/config.js
  */
 module.exports = {
@@ -31,6 +31,7 @@ module.exports = {
 
         nav: [
             { text: 'Home', link: '/home/main/', activeMatch: '^/home/' },
+            { text: 'Javascript', link: '/js/array/forEach/', activeMatch: '^/js/' },
         ],
 
         sidebar: {
@@ -46,8 +47,14 @@ function getHome() {
             text: 'DailyReview',
             // collapsable: true,
             children: [
-                { text: '爱彼迎前端规范-EN', link: '/home/airbnb/' },
-                { text: '爱彼迎前端规范分享-CH', link: '/home/airbnb/zh-ch/' }
+                { 
+                    text: '前端规范',
+                    link: '/home/font-endSpecification/airbnb/zh-ch/',
+                    children: [
+                        { text: '爱彼迎前端规范-EN', link: '/home/font-endSpecification/airbnb/' },
+                        { text: '爱彼迎前端规范-CH', link: '/home/font-endSpecification/airbnb/zh-ch/' }
+                    ] 
+                }
             ]
         }
     ]
