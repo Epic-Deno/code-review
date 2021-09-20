@@ -5,6 +5,7 @@
 node_modules
 yarn.lock
 package-lock.json
+scripts/deploy-gh.sh
 
 # build
 docs/.vitepress/dist
