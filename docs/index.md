@@ -3,7 +3,7 @@ home: true
 heroImage: /logo.svg
 heroAlt: Pony
 actionText: 👋 Start with Pony
-tagline: Pony 日常编码分享
+tagline: Enjoy with coding
 # actionText: Get Started
 actionLink: /home/main/
 features:
