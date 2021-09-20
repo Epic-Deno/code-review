@@ -3,14 +3,14 @@
  * @Author: Pony
  * @Date: 2021-09-20 22:08:03
  * @LastEditors: Pony
- * @LastEditTime: 2021-09-21 01:50:28
+ * @LastEditTime: 2021-09-21 03:09:29
  * @FilePath: /demo01/docs/.vitepress/config.js
  */
 module.exports = {
     lang: 'zh-ch',
     title: '🦄️ Pony Design',
     description: 'Share you different Javascript skills',
-    base: '/',
+    base: '/code-review',
 
     head: [
         ['link', { rel: 'icon', href: '/logo.svg' }],
