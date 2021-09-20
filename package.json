@@ -1,0 +1,16 @@
+{
+  "name": "demo01",
+  "version": "1.0.0",
+  "description": "vitePress model",
+  "main": "index.js",
+  "author": "xiao yao zi <1557549413@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^0.18.1"
+  }
+}
