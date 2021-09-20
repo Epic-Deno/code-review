@@ -3,8 +3,8 @@
  * @Author: Pony
  * @Date: 2021-09-21 00:43:14
  * @LastEditors: Pony
- * @LastEditTime: 2021-09-21 00:56:39
- * @FilePath: /demo01/docs/home/airbnb/index.md
+ * @LastEditTime: 2021-09-21 01:31:26
+ * @FilePath: /demo01/docs/home/font-endSpecification/airbnb/index.md
 -->
 # Airbnb JavaScript Style Guide
 
@@ -21,8 +21,8 @@ This guide is available in other languages too. See [Translation](#translation)
 Other Style Guides
 
   - [ES5 (Deprecated)](https://github.com/airbnb/javascript/tree/es5-deprecated/es5)
-  - [React](react/)
-  - [CSS-in-JavaScript](css-in-javascript/)
+  <!-- - [React](react/) -->
+  <!-- - [CSS-in-JavaScript](css-in-javascript/) -->
   - [CSS & Sass](https://github.com/airbnb/css)
   - [Ruby](https://github.com/airbnb/ruby)
 

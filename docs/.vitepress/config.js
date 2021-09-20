@@ -3,7 +3,7 @@
  * @Author: Pony
  * @Date: 2021-09-20 22:08:03
  * @LastEditors: Pony
- * @LastEditTime: 2021-09-21 01:06:01
+ * @LastEditTime: 2021-09-21 01:50:28
  * @FilePath: /demo01/docs/.vitepress/config.js
  */
 module.exports = {
@@ -30,8 +30,9 @@ module.exports = {
         lastUpdated: 'Last Updated',
 
         nav: [
-            { text: 'Home', link: '/home/main/', activeMatch: '^/home/' },
-            { text: 'Javascript', link: '/js/array/forEach/', activeMatch: '^/js/' },
+            { text: 'DailyReview', link: '/home/main/', activeMatch: '^/home/' },
+            { text: 'Javascript'},
+            { text: 'FrameWorks'},
         ],
 
         sidebar: {

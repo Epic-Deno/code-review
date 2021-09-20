@@ -3,8 +3,8 @@
  * @Author: Pony
  * @Date: 2021-09-21 00:53:46
  * @LastEditors: Pony
- * @LastEditTime: 2021-09-21 00:58:29
- * @FilePath: /demo01/docs/home/airbnb/zh-ch/index.md
+ * @LastEditTime: 2021-09-21 01:31:39
+ * @FilePath: /demo01/docs/home/font-endSpecification/airbnb/zh-ch/index.md
 -->
 # Airbnb JavaScript 风格指南
 
@@ -20,8 +20,8 @@
 
 其他风格指南：
  - [ES5 (已废弃)](https://github.com/airbnb/javascript/tree/es5-deprecated/es5)
- - [React](react/)
- - [CSS-in-JavaScript](css-in-javascript/)
+ <!-- - [React](react/) -->
+ <!-- - [CSS-in-JavaScript](css-in-javascript/) -->
  - [CSS & Sass](https://github.com/airbnb/css)
  - [Ruby](https://github.com/airbnb/ruby)
 
