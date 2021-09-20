@@ -3,7 +3,7 @@
  * @Author: Pony
  * @Date: 2021-09-20 22:08:03
  * @LastEditors: Pony
- * @LastEditTime: 2021-09-21 00:21:05
+ * @LastEditTime: 2021-09-21 00:56:00
  * @FilePath: /demo01/docs/.vitepress/config.js
  */
 module.exports = {
@@ -22,10 +22,33 @@ module.exports = {
     ],
     themeConfig: {
         docsDir: 'docs',
-        repo: 'Pony/code-review',
-        repoLabel: '🦄️ Pony bring you new programmable World',
+        repo: 'Epic-Deno/code-review',
+        repoLabel: 'Star 🌟 🦄️ Pony',
         docsBranch: 'main',
         editLinks: true,
-        
+        editLinkText: 'Edit this page',
+        lastUpdated: 'Last Updated',
+
+        nav: [
+            { text: 'Home', link: '/home/main/', activeMatch: '^/home/' },
+        ],
+
+        sidebar: {
+            '/home/': getHome(),
+        }
     }
+}
+
+function getHome() {
+    return [
+        { text: 'Main', link: '/home/main/' },
+        {
+            text: 'DailyReview',
+            // collapsable: true,
+            children: [
+                { text: '爱彼迎前端规范-EN', link: '/home/airbnb/' },
+                { text: '爱彼迎前端规范分享-CH', link: '/home/airbnb/zh-ch/' }
+            ]
+        }
+    ]
 }
