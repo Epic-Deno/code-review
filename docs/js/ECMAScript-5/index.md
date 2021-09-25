@@ -3,14 +3,14 @@
  * @Author: Pony
  * @Date: 2021-09-25 22:17:16
  * @LastEditors: Pony
- * @LastEditTime: 2021-09-25 23:46:03
+ * @LastEditTime: 2021-09-25 23:48:57
  * @FilePath: /demo01/docs/js/ECMAScript-5/index.md
 -->
 # ECMAScript 5 有关的的知识点
 
 *A mostly reasonable JavaScript*
 
-> **Note**: 此篇文章是我总结各种博主的博客文档集合而成的知识点，文章内容会持续更新中， 如果没更细就是在学习[Python](/python/index/)😄 。
+> **Note**: 此篇文章是我总结各种博主的博客文档集合而成的知识点，文章内容会持续更新中， 如果没更细就是在学习[Python](https://www.baidu.com/link?url=6nVJgSfGz6Tyv09u9CZFmLQLxRJaP7JTXC1iOgnaWH0AXuprMaUt5Z0UliWcGeD8&wd=&eqid=d61f2ae5000644ab00000004614f44d7)😄 。
 
 [![ECMAScript 5](https://img.shields.io/badge/ECMAScript-5-brightgreen)](https://www.w3school.com.cn/js/js_es5.asp)
 
