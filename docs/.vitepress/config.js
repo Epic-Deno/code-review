@@ -3,7 +3,7 @@
  * @Author: Pony
  * @Date: 2021-09-20 22:08:03
  * @LastEditors: Pony
- * @LastEditTime: 2021-09-25 22:05:36
+ * @LastEditTime: 2021-09-25 22:20:32
  * @FilePath: /demo01/docs/.vitepress/config.js
  */
 module.exports = {
@@ -31,17 +31,19 @@ module.exports = {
 
         nav: [
             { text: 'DailyReview', link: '/home/main/', activeMatch: '^/home/' },
-            { text: 'Javascript'},
+            { text: 'Javascript', link: '/js/ECMAScript-5/', activeMatch: '^/js/'},
             { text: 'FrameWorks'},
             { text: 'Python'},
         ],
 
         sidebar: {
             '/home/': getHome(),
+            '/js/': getJavaScript(),
         }
     }
 }
 
+/*首页部分*/
 function getHome() {
     return [
         { text: 'Main', link: '/home/main/' },
@@ -59,5 +61,12 @@ function getHome() {
                 }
             ]
         }
+    ]
+}
+
+/*JavaScript部分*/
+function getJavaScript() {
+    return [
+        { text: 'ECMAScript 5', link: '/js/ECMAScript-5/' }
     ]
 }

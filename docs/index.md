@@ -7,7 +7,7 @@ tagline: Enjoy with coding
 # actionText: Get Started
 actionLink: /home/main/
 features:
-  - title: JS 实现系列
+  - title: Javascript 知识点
     details: 包含 Array，Object 等
   - title: FrameWorks 源码学习
     details: 包含 react源码分析、vue源码分析 等
