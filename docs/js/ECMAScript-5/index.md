@@ -3,7 +3,7 @@
  * @Author: Pony
  * @Date: 2021-09-25 22:17:16
  * @LastEditors: Pony
- * @LastEditTime: 2021-09-25 23:48:57
+ * @LastEditTime: 2021-09-26 23:54:28
  * @FilePath: /demo01/docs/js/ECMAScript-5/index.md
 -->
 # ECMAScript 5 有关的的知识点
@@ -17,6 +17,7 @@
 ## 目录
 
   1. [this的指向问题](#this的指向问题)
+  2. [箭头头函数](#箭头函数)
 
 
 
@@ -99,5 +100,36 @@
     fn()
     ```
     + 最后一个例子 fn()函数是被window调用的，fn里面虽然有定义了变量name但是只是一个声明，window全局变量中的name始终是Pony，因而最后打印的也是Pony。
+
+**[⬆ 回到顶部](#目录)**
+
+## 箭头函数
+  <a name="2.1"></a>
+  <a name="Arrow--function"></a>
+  
+  - [1.1](#Arrow--function) **箭头函数** ： **箭头函数的this始终指向函数定义时候的this，不是执行时候**，箭头函数中是没有this的绑定，必须通过查找作用域链来决定其值，如果箭头函数被非箭头函数包含， 则this绑定的是最近一层非箭头函数的this， 否则this就是undefined。
+
+    ```javascript
+    var name = 'Pony';
+
+    var a = {
+        name: "Cheney",
+
+        func1: function () {
+            console.log(this.name); // Cheney 
+        },
+
+        func2: function () {
+            setTimeout(() => {
+                this.func1()
+            }, 100)
+        }
+    }
+
+    a.func2() // Cheney
+    ```
+    + 这个例子当中调用了对象a重的函数func2, func2是一个常规非箭头函数，里面的定时器是一个箭头函数里面this会指向最近的非箭头函数func2的this, func2是a的一个属性，所以他的this指向的是就是a,this.func1就等同于a.func1, func1也是a对象的属性函数，func1的`this.name`就等同于`a.name` 所以打印出了Cheney。
+
+
 
 **[⬆ 回到顶部](#目录)**
